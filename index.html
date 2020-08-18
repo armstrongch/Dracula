@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dracula's Gonna Getcha</title>
+		<style type="text/css">
+			.invisible {
+				display: none;
+			}
+			* {
+				font-size: 18px;
+			}
+			td {
+				border: 1px solid black;
+				padding: 5px;
+				text-align: center;
+			}
+			a {
+				text-decoration: underline;
+			}
+			a:hover {
+				color: blue;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body onload="setupGame()">
+		<div id='gameInfoDiv'>
+			<p>
+				<strong>Dracula's Gonna Getcha!</strong><br/>
+				Version 0.1<br/>
+				A Game by Chris "Turd Boomerang" Armstrong
+				
+			</p>
+		</div>
+		<div id='infoDiv'></div>
+		<div id='chooseDiv'></div>
+		<div id='mapDiv'>
+			<p>Map:</p>
+			<table id='mapTable'></table>
+		</div>
+		<div id='historyDiv'></div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+		<script src="town.js" type="text/javascript"></script>
+		<script src="utility.js" type="text/javascript"></script>
+		<script src="setup.js" type="text/javascript"></script>
+		<script src="player.js" type="text/javascript"></script>
+		<script src="dracula.js" type="text/javascript"></script>
+		<script src="choices.js" type="text/javascript"></script>
+		<script src="item.js" type="text/javascript"></script>
+	</body>
+</html>
