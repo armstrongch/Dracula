@@ -25,7 +25,8 @@ function newLocation(name)
 {
 	var newLocation = {
 		name: name,
-		items: []
+		items: [],
+		searchedByDracula: false,
 	}
 	
 	switch(name)
