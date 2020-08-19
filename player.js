@@ -63,6 +63,7 @@ function searchLocation()
 			items.push(locationItem);
 		}
 		showMessage(messageText);
+		map[position.y][position.x].items = [];
 	}
 	endTurn();
 }

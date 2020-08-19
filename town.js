@@ -33,6 +33,10 @@ function newLocation(name)
 		case "Library":
 			newLocation.items.push(newItem("\"How to Kill Dracula\" Book"));
 			break;
+		case "Church":
+			newLocation.items.push(newItem("Crucifix"));
+			newLocation.items.push(newItem("Holy Water"));
+			break;
 	}
 	
 	return newLocation;
